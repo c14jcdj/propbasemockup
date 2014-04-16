@@ -136,44 +136,49 @@ p{
   color:white;
 }
 
-.myMenu {
-  margin:0;
-  padding:0;
-}
 
 
 
-/*style the sub menu*/
+
 .myMenu li ul {
   position:absolute;
-  visibility:hidden;
-  border-top:1px solid #fff;
-  margin:0;
-  padding:0;
-}
-
-.myMenu li ul li {
-  display:inline;
-  float:none;
-}
-
-.myMenu li ul {
-
+  /*visibility:hidden;*/
   text-align: center;
-  border: 1px solid red;
   width: 10%;
   height: 150px;
-  left: 32.5%;
+  left: 34.3%;
+  z-index: 1;
+
 }
 
-.myMenu li ul a{
+#holder {
+  display: none;
 }
 
-#submenu li {
-  padding: 8%;
+
+.myMenu li ul li {
+  padding: 9%;
 }
 
-ul#submenu {
-  padding: 0px;
+ul#test {
+  position: absolute;
+  margin-left: -20px;
 }
+
+.dropdown {
+  position: absolute;
+  width: 13%;
+  height: 160px;
+  left: 34.5%;
+  background-color: white;
+  opacity: .9;
+  z-index: 1;
+
+  top: 28%;
+  border: 1px solid green;
+}
+
+
+
+
 
