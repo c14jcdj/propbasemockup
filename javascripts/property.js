@@ -4,8 +4,9 @@ $(document).ready(function() {
     $('.myMenu > li').bind('mouseout', closeSubMenu);
 
     function openSubMenu() {
+        console.log($(this).find('ul').length)
         $(this).find('ul').css('visibility', 'visible');
-        if ($(this).find('ul').length = 1) {
+        if ($(this).find('ul').length == 1) {
             $('.dropdown').css('visibility', 'visible');
         }
     };
@@ -17,9 +18,6 @@ $(document).ready(function() {
 
 })
 
-function test() {
-
-}
 
 function Picture(image, text, id) {
     this.image = "img/" + image + "";

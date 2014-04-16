@@ -4,7 +4,7 @@ body {
 }
 .navbar {
   overflow: auto;
-  padding: 1.5% 0;
+  padding: 18px 0;
 }
 
 #logo img {
@@ -13,7 +13,7 @@ body {
 }
 
 #logo {
-  margin-left: 10%;
+  margin-left: 25%;
   float: left;
   width: 175px;
   height: 35px;
@@ -21,17 +21,18 @@ body {
 
 #menu {
   float: right;
-  width: 67%;
+  width: 65%;
 }
 
 #menu ul li {
-  margin-left: 3.5%;
+  margin-left: 2.5%;
   display: inline-block;
 
 }
 
 #menu ul {
   margin: 0px;
+  margin-left: 6%;
 }
 
 
@@ -71,7 +72,7 @@ font-size: 1em;
 
 .text {
   position: relative;
-  top: 20%;
+  top: 50px;
   font-family: proxima-nova, 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
   text-align: center;
 }
@@ -94,7 +95,7 @@ p{
 
 .links {
   position: relative;
-  top: 20%;
+  top: 35px;
   text-align: center;
 }
 
@@ -106,7 +107,7 @@ p{
 }
 
 #pic_buttons {
-  margin-top: 2%;
+  margin-top: 30px;
 }
 
 .links a {
@@ -124,8 +125,8 @@ p{
   padding-top: .5%;
   background-color:  rgb(224, 80, 61);
   font-size: 1em;
-  height: 40px;
-  width: 20%;
+  height: 50px;
+  width: 15%;
 }
 
 #pic_buttons button:nth-child(2) {
@@ -152,35 +153,138 @@ p{
 }
 
 #holder {
-  display: none;
+  visibility: hidden;
 }
 
 
 .myMenu li ul li {
-  padding: 9%;
+  padding: 7%;
 }
 
 ul#test {
+  margin-top: -1%;
   position: absolute;
-  margin-left: -20px;
+  margin-left: 2.3%;
 }
 
 
 .dropdown {
   position: absolute;
   visibility: hidden;
-  width: 10%;
-  height: 160px;
-  left: 36.1%;
+  width: 8%;
+  height: 190px;
+  left: 40%;
   background-color: white;
   opacity: .9;
   z-index: 1;
   border: none;
   border-top: red 1px solid;
-  top: 15%;
+  top: 77px;
 }
 
+@media all and (max-width: 1680px) {
 
+  #menu {
+  width: 55%;
+  margin-right: 8%;
 
+}
+
+#menu ul li {
+  margin-left: 2.5%;
+
+}
+
+#menu ul {
+  margin-left: 0;
+}
+#logo {
+  margin-left: 21%;
+}
+
+.myMenu li ul {
+  width: 10%;
+  left: 35%;
+
+}
+
+.dropdown {
+  width: 8%;
+  height: 170px;
+  left: 38.5%;
+  top: 77px;
+}
+
+}
+
+@media all and (max-width: 1440px) {
+.dropdown {
+  left: 39%;
+  height: 160px;
+}
+}
+
+@media all and (max-width: 1366px) {
+.dropdown {
+  left: 39%;
+  width: 8.5%;
+}
+
+#logo {
+  margin-left: 13%;
+}
+}
+
+@media all and (max-width: 1280px) {
+.myMenu li ul {
+  width: 10%;
+  left: 35.5%;
+}
+.dropdown {
+  left: 39%;
+  width: 9.5%;
+  height: 150px;
+}
+
+}
+
+@media all and (max-width: 1080px) {
+  #logo {
+  margin-left: 5%;
+
+}
+
+#menu {
+  width: 75%;
+  margin-right: -10%;
+}
+
+#pic_buttons button {
+  height: 50px;
+  width: 25%;
+}
+
+.text{
+  top: 100px;
+}
+
+.links {
+  top: 110px;
+}
+
+#pic_buttons {
+  margin-top: 12px;
+}
+
+.myMenu li ul {
+  width: 11%;
+  left: 34%;
+}
+.dropdown {
+  left: 37.3%;
+  width: 12%;
+  height: 150px;
+}
+}
 
 
