@@ -269,7 +269,7 @@ ul#test {
   overflow: hidden;
   margin: 0 auto;
   width: 60%;
-  height: 500px;
+  height: 550px;
   margin-top: 2%;
 }
 
@@ -330,7 +330,7 @@ ul#test {
 
 .sky {
   width: 100%;
-  height: 350px;
+  height: 300px;
 }
 
 #skyimg {
@@ -342,23 +342,23 @@ ul#test {
 #skyimg p {
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 2em;
+  font-size: 2.2em;
   width: 100%;
 }
 
 #skytext {
-  width: 50%;
+  width: 33%;
   margin: 0 auto;
   position: relative;
-  top: 20%;
+  top: 15%;
 
 }
 
 #button {
   height: 45px;
-  width: 20%;
+  width: 13%;
   margin: 0 auto;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 #button button {
@@ -434,6 +434,17 @@ ul#test {
   width: 65%;
   }
 
+#skytext {
+  width: 37%;
+}
+
+#button {
+  height: 45px;
+  width: 15%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
 }
 
 @media all and (max-width: 1600px) {
@@ -460,14 +471,12 @@ ul#test {
 
 .testimonials {
   margin-top: 3%;
-  height: 500px;
+  height: 530px;
 
 
 }
 
-.testimonials div {
-  width: 80%;
-  }
+
 }
 
 @media all and (max-width: 1366px) {
@@ -485,6 +494,17 @@ ul#test {
   width: 100%;
   margin-left: 10px;
   }
+
+#skytext {
+  width: 50%;
+}
+
+#button {
+  height: 45px;
+  width: 20%;
+  margin: 0 auto;
+  margin-top: 7%;
+}
 
 
 }
@@ -525,6 +545,10 @@ ul#test {
 .testimonials div {
   width: 90%;
   }
+
+#skytext {
+  width: 45%;
+}
 
 }
 
@@ -584,6 +608,10 @@ ul#test {
   .testimonials {
   width: 75%;
   }
+
+#skytext {
+  width: 57%;
+}
 
 }
 
