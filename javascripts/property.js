@@ -1,15 +1,18 @@
 $(document).ready(function() {
     rotateBackground();
-    $('#products').bind('mouseover', openSubMenu);
-    $('#products').bind('mouseout', closeSubMenu);
+    $('.myMenu > li').bind('mouseover', openSubMenu);
+    $('.myMenu > li').bind('mouseout', closeSubMenu);
 
     function openSubMenu() {
-        $('.submenu').css('visibility', 'visible');
+        $(this).find('ul').css('visibility', 'visible');
+        $('.dropdown').css('visibility', 'visible');
     };
 
     function closeSubMenu() {
-        $('.submenu').css('visibility', 'hidden');
+        $(this).find('ul').css('visibility', 'hidden');
+        $('.dropdown').css('visibility', 'hidden');
     };
+
 })
 
 function Picture(image, text, id) {

@@ -138,38 +138,47 @@ p{
 
 
 
-.submenu {
-  top: 10%;
+
+
+.myMenu li ul {
   position:absolute;
+  visibility:hidden;
+  text-align: center;
+  width: 10%;
+  height: 150px;
+  left: 34.3%;
+  z-index: 1;
+
+}
+
+#holder {
+  display: none;
+}
+
+
+.myMenu li ul li {
+  padding: 9%;
+}
+
+ul#test {
+  position: absolute;
+  margin-left: -20px;
+}
+
+
+.dropdown {
+  position: absolute;
+  visibility: hidden;
   width: 10%;
   height: 160px;
-  text-align: center;
-  overflow: auto;
+  left: 36.1%;
   background-color: white;
-  opacity: .95;
-  border-top: 1px solid red;
+  opacity: .9;
   z-index: 1;
-  visibility:hidden;
+  border: none;
+  border-top: red 1px solid;
+  top: 15%;
 }
-
-#submenu {
-  text-align: center;
-  width: 100%;
-  height: 100%;
-
-}
-
-
-#submenu li {
-  padding: 8%;
-}
-
-ul#submenu {
-  padding: 0px;
-}
-
-
-
 
 
 
