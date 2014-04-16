@@ -378,8 +378,38 @@ ul#test {
 
 .footer {
   height: 400px;
-  background-color: black;
+  color: grey;
+  background-color: #2f2f2f;
+  font-family: 'Source Sans Pro', sans-serif;
 }
+
+.footer .lists {
+  width: 80%;
+  height: 300px;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+.footer ul {
+  list-style: none;
+  font-size: 1em;
+  padding-left:0px;
+}
+
+.footer ul li{
+  padding: 5%;
+}
+
+h4 {
+  color:  #E6E6E6;
+}
+
+.footer div {
+  float: left;
+  width: 15%;
+  height: 100%;
+}
+
 
 
 @media all and (max-width: 1680px) {
