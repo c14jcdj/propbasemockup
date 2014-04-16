@@ -4,7 +4,12 @@ body {
 }
 .navbar {
   overflow: auto;
+  position: fixed;
+  width: 100%;
   padding: 18px 0;
+  z-index: 1;
+  opacity: .98;
+  background-color: white;
 }
 
 #menu a:hover{
@@ -84,6 +89,8 @@ font-size: 1em;
 }
 
 .pictures {
+  position: relative;
+  top: 76px;
   background: url('../img/residential.jpg');
   transition: background 0.5s linear;
   width: 100%;
@@ -204,13 +211,14 @@ ul#test {
 }
 
 .summary {
+  position: relative;
+  margin-top: 70px;
   width: 100%;
   height: 350px;
   background-color: #E6E6E6;
 }
 .companies {
   width: 80%;
-  border: 1px solid red;
   margin: 0 auto;
 }
 
