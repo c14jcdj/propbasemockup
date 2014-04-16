@@ -165,10 +165,6 @@ p{
   color:white;
 }
 
-
-
-
-
 .myMenu li ul {
   position:absolute;
   visibility:hidden;
@@ -177,13 +173,11 @@ p{
   height: 150px;
   left: 34.3%;
   z-index: 1;
-
 }
 
 #holder {
   visibility: hidden;
 }
-
 
 .myMenu li ul li {
   padding: 7%;
@@ -194,7 +188,6 @@ ul#test {
   position: absolute;
   margin-left: 2.3%;
 }
-
 
 .dropdown {
   position: absolute;
@@ -214,11 +207,11 @@ ul#test {
   position: relative;
   margin-top: 70px;
   width: 100%;
-  height: 415px;
+  height: 400px;
   background-color: #E6E6E6;
 }
 .companies {
-  width: 80%;
+  width: 58%;
   margin: 0 auto;
 }
 
@@ -226,17 +219,16 @@ ul#test {
   width: 10%;
   height: 50px;
   padding: 1%;
-  margin-left: 3%;
+  margin-left: 4%;
 }
 
 .syn {
-  width: 80%;
+  width: 58%;
   margin: 0 auto;
   overflow: hidden;
   margin-top: 3%;
   font-family: proxima-nova, 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
 }
-
 
 .syn img {
   margin-left: 40%;
@@ -253,8 +245,8 @@ ul#test {
 
 .cloud p:nth-child(3), .mobile p:nth-child(3), .people p:nth-child(3) {
   line-height: 27px;
-  width: 90%;
-  margin-left: 20px;
+  width: 85%;
+  margin-left: 35px;
   }
 
 .cloud {
@@ -306,12 +298,36 @@ ul#test {
   top: 77px;
 }
 
+.syn{
+  width: 60%;
+}
+
+.companies{
+  width: 60%;
+
+}
+
+.cloud p:nth-child(3), .mobile p:nth-child(3), .people p:nth-child(3) {
+  line-height: 27px;
+  width: 95%;
+  margin-left: 10px;
+  }
+
 }
 
 @media all and (max-width: 1440px) {
 .dropdown {
   left: 39%;
   height: 160px;
+}
+
+.syn{
+  width: 70%;
+}
+
+.companies{
+  width: 70%;
+
 }
 }
 
@@ -324,6 +340,12 @@ ul#test {
 #logo {
   margin-left: 13%;
 }
+
+.cloud p:nth-child(3), .mobile p:nth-child(3), .people p:nth-child(3) {
+  line-height: 27px;
+  width: 100%;
+  margin-left: 10px;
+  }
 }
 
 @media all and (max-width: 1280px) {
@@ -337,9 +359,24 @@ ul#test {
   height: 150px;
 }
 
+.syn{
+  width: 75%;
 }
 
-@media all and (max-width: 1080px) {
+.companies{
+  width: 75%;
+
+}
+
+.cloud p:nth-child(3), .mobile p:nth-child(3), .people p:nth-child(3) {
+  line-height: 27px;
+  width: 100%;
+  margin-left: 10px;
+  }
+
+}
+
+@media all and (max-width: 1024px) {
   #logo {
   margin-left: 5%;
 
@@ -376,6 +413,22 @@ ul#test {
   width: 12%;
   height: 150px;
 }
+
+.syn{
+  width: 95%;
+}
+
+.companies{
+  width: 95%;
+
+}
+
+.cloud p:nth-child(3), .mobile p:nth-child(3), .people p:nth-child(3) {
+  line-height: 27px;
+  width: 100%;
+  margin-left: 10px;
+  }
+
 }
 
 
