@@ -5,10 +5,12 @@ $(document).ready(function() {
 
     function openSubMenu() {
         $(this).find('ul').css('visibility', 'visible');
+        $('.dropdown').css('visibility', 'visible');
     };
 
     function closeSubMenu() {
         $(this).find('ul').css('visibility', 'hidden');
+        $('.dropdown').css('visibility', 'hidden');
     };
 
 })

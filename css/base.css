@@ -142,7 +142,7 @@ p{
 
 .myMenu li ul {
   position:absolute;
-  /*visibility:hidden;*/
+  visibility:hidden;
   text-align: center;
   width: 10%;
   height: 150px;
@@ -167,15 +167,16 @@ ul#test {
 
 .dropdown {
   position: absolute;
-  width: 13%;
+  visibility: hidden;
+  width: 10%;
   height: 160px;
-  left: 34.5%;
+  left: 36.1%;
   background-color: white;
   opacity: .9;
   z-index: 1;
-
-  top: 28%;
-  border: 1px solid green;
+  border: none;
+  border-top: red 1px solid;
+  top: 15%;
 }
 
 
