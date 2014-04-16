@@ -264,6 +264,72 @@ ul#test {
   width: 29%;
 }
 
+.testimonials {
+  font-family: 'Source Sans Pro', sans-serif;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 5%;
+}
+
+.testimonials header {
+  font-size: 3em;
+  font-weight: normal;
+  text-align: center;
+  margin: 5% 0;
+}
+
+.testimonials div {
+  margin: 5% auto;
+  overflow: hidden;
+  width: 65%;
+
+}
+
+#tester {
+  border: 3px solid pink;
+  width: 50%;
+
+}
+
+#line {
+  border-left: 2px solid black;
+  position: absolute;
+  margin-left: 514px;
+  margin-top: -50px;
+  height: 500px;
+
+}
+
+.testimonials p{
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.testimonials p:nth-child(1) {
+  font-size: 1.5em;
+}
+.testimonials p:nth-child(2) {
+  font-size: 1.4em;
+  font-style: italic;
+  color: grey;
+}
+
+.testimonials .testtext {
+  width: 82%;
+  padding: 0;
+  margin-top:0 ;
+  float: left;
+
+}
+
+.testimonials img {
+  float: left;
+  width: 15%;
+}
+
+
+
 
 @media all and (max-width: 1680px) {
 
