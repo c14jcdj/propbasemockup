@@ -328,7 +328,58 @@ ul#test {
   width: 13%;
 }
 
+.sky {
+  width: 100%;
+  height: 350px;
+}
 
+#skyimg {
+  width: 100%;
+  height: 100%;
+  background: url('../img/skyscraper01.jpg');
+}
+
+#skyimg p {
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2em;
+  width: 100%;
+}
+
+#skytext {
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  top: 20%;
+
+}
+
+#button {
+  height: 45px;
+  width: 20%;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+#button button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color:  rgb(224, 80, 61);
+  left: 50%;
+
+}
+
+#button a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer {
+  height: 400px;
+  background-color: black;
+}
 
 
 @media all and (max-width: 1680px) {
