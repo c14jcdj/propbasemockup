@@ -5,7 +5,9 @@ $(document).ready(function() {
 
     function openSubMenu() {
         $(this).find('ul').css('visibility', 'visible');
-        $('.dropdown').css('visibility', 'visible');
+        if ($(this).find('ul').length = 1) {
+            $('.dropdown').css('visibility', 'visible');
+        }
     };
 
     function closeSubMenu() {
@@ -14,6 +16,10 @@ $(document).ready(function() {
     };
 
 })
+
+function test() {
+
+}
 
 function Picture(image, text, id) {
     this.image = "img/" + image + "";
