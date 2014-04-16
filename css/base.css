@@ -139,7 +139,7 @@ p{
 
 
 .submenu {
-  top: 15%;
+  top: 10%;
   position:absolute;
   width: 10%;
   height: 160px;
@@ -168,9 +168,7 @@ ul#submenu {
   padding: 0px;
 }
 
-#submenu a {
 
-}
 
 
 
