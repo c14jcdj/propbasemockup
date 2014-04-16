@@ -268,21 +268,20 @@ ul#test {
   font-family: 'Source Sans Pro', sans-serif;
   overflow: hidden;
   margin: 0 auto;
-  width: 80%;
-  margin-top: 5%;
+  width: 60%;
+  height: 500px;
+  margin-top: 2%;
 }
 
 .testimonials header {
   font-size: 3em;
   font-weight: normal;
   text-align: center;
-  margin: 5% 0;
 }
 
 .testimonials div {
   margin: 5% auto;
-  overflow: hidden;
-  width: 65%;
+  width: 60%;
 
 }
 
@@ -302,8 +301,8 @@ ul#test {
 }
 
 .testimonials p{
-  text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
+  padding-left: 5%;
 }
 
 .testimonials p:nth-child(1) {
@@ -312,6 +311,7 @@ ul#test {
 .testimonials p:nth-child(2) {
   font-size: 1.4em;
   font-style: italic;
+  padding-top: 3%;
   color: grey;
 }
 
@@ -325,7 +325,7 @@ ul#test {
 
 .testimonials img {
   float: left;
-  width: 15%;
+  width: 13%;
 }
 
 
@@ -379,7 +379,18 @@ ul#test {
   margin-left: 10px;
   }
 
+.testimonials div {
+  width: 65%;
+  }
+
 }
+
+@media all and (max-width: 1600px) {
+.testimonials div {
+  width: 70%;
+  }
+}
+
 
 @media all and (max-width: 1440px) {
 .dropdown {
@@ -395,6 +406,17 @@ ul#test {
   width: 70%;
 
 }
+
+.testimonials {
+  margin-top: 3%;
+  height: 500px;
+
+
+}
+
+.testimonials div {
+  width: 80%;
+  }
 }
 
 @media all and (max-width: 1366px) {
@@ -412,6 +434,8 @@ ul#test {
   width: 100%;
   margin-left: 10px;
   }
+
+
 }
 
 @media all and (max-width: 1280px) {
@@ -438,6 +462,17 @@ ul#test {
   line-height: 27px;
   width: 100%;
   margin-left: 10px;
+  }
+
+  .testimonials {
+  margin-top: 3%;
+  height: 500px;
+
+
+}
+
+.testimonials div {
+  width: 90%;
   }
 
 }
@@ -493,6 +528,10 @@ ul#test {
   line-height: 27px;
   width: 100%;
   margin-left: 10px;
+  }
+
+  .testimonials {
+  width: 75%;
   }
 
 }
