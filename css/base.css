@@ -381,6 +381,7 @@ ul#test {
   color: grey;
   background-color: #2f2f2f;
   font-family: 'Source Sans Pro', sans-serif;
+  overflow: hidden;
 }
 
 .footer .lists {
@@ -410,6 +411,31 @@ h4 {
   height: 100%;
 }
 
+#crbottom {
+  overflow: hidden;
+  margin-top: -20px;
+  height: 70px;
+  clear: both;
+  width: 100%;
+}
+
+#copyright {
+  width: 60%;
+}
+
+#socialmedia {
+  float: right;
+  width: 20%;
+  height: 50px;
+  margin-left: 20px;
+}
+
+#socialmedia img{
+  float: left;
+  padding-left: 2%;
+  height: 40px;
+  width: 40px;
+}
 
 
 @media all and (max-width: 1680px) {
