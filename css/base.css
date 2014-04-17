@@ -377,7 +377,7 @@ ul#test {
 }
 
 .footer {
-  height: 400px;
+  height: 475px;
   color: grey;
   background-color: #2f2f2f;
   font-family: 'Source Sans Pro', sans-serif;
@@ -388,7 +388,7 @@ ul#test {
   width: 80%;
   height: 300px;
   margin-left: 15%;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 .footer ul {
@@ -420,7 +420,8 @@ h4 {
 }
 
 #copyright {
-  width: 60%;
+  width: 70%;
+  margin-top: 2%;
 }
 
 #socialmedia {
@@ -428,6 +429,7 @@ h4 {
   width: 20%;
   height: 50px;
   margin-left: 20px;
+  margin-top: 2%;
 }
 
 #socialmedia img{
@@ -501,11 +503,27 @@ h4 {
   margin-top: 5%;
 }
 
+.footer {
+    height: 450px;
+  }
+
+   #copyright {
+    margin-top: 1%;
+  }
+
 }
 
 @media all and (max-width: 1600px) {
 .testimonials div {
   width: 70%;
+  }
+
+  .footer {
+    height: 450px;
+  }
+
+  #copyright {
+    margin-top: 1%;
   }
 }
 
@@ -528,8 +546,10 @@ h4 {
 .testimonials {
   margin-top: 3%;
   height: 530px;
+}
 
-
+.footer {
+  height: 415px;
 }
 
 
@@ -560,6 +580,10 @@ h4 {
   width: 20%;
   margin: 0 auto;
   margin-top: 7%;
+}
+
+.footer {
+  height: 415px;
 }
 
 
@@ -604,6 +628,14 @@ h4 {
 
 #skytext {
   width: 45%;
+}
+
+.footer .lists {
+  margin-top: 3%;
+}
+
+#crbottom {
+  margin-top: -3%;
 }
 
 }
